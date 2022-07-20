@@ -1,8 +1,11 @@
-# Python dependencies needed
+# Welcome to HorariosFic repo!
+Here I'm going to try to solve the problem of making your schedule when the semester's courses offer gets uploaded. Take a seat and enjoy!.
+
+### Python dependencies needed for converting the excel of courses to a csv
 - pandas
 - openpyxl
 
-# Steps for database and table creation
+### Steps for database and table creation
 - With ofertaExcelToCsv.py and the excel with the courses in the same folder, run the python script with the excel as argv to transform to csv.
 - Create the horariosfic database in postgres.
 - Use the command '\i pathToSql' for creating the courses table.
