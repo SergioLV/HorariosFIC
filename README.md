@@ -1,4 +1,4 @@
-# Welcome to HorariosFic repo!
+# Welcome to HorariosFic's repo!
 Here I'm going to try to solve the problem of making your schedule when the semester's courses offer gets uploaded. Take a seat and enjoy!.
 
 ### Python dependencies needed for converting the excel of courses to a csv
