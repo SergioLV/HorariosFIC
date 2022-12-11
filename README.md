@@ -10,3 +10,5 @@ Here I'm going to try to solve the problem of making your schedule when the seme
 - Create the horariosfic database in postgres.
 - Use the command '\i pathToSql' for creating the courses table.
 - Use the command 'COPY courses(asignatura, nombre_asig, creditos, asig_referenciadas, seccion, descripcion, horario, profesor, sede, cat_paquete, paquete, vacantes) FROM 'pathToCsv' DELIMITER ',' CSV HEADER;' for importing the csv to the courses table.
+#### Note
+If postgres can't find file or directory, just use the \copy command instead of \i
